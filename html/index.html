@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <title>
+    </title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript">
+
+     var clevertap = {event:[], profile:[], account:[], onUserLogin:[], notifications:[], privacy:[]};
+ // replace with the CLEVERTAP_ACCOUNT_ID with the actual ACCOUNT ID value from your Dashboard -> Settings page
+clevertap.account.push({"id": "W44-Z4K-K65Z"});
+clevertap.privacy.push({optOut: false}); //set the flag to true, if the user of the device opts out of sharing their data
+clevertap.privacy.push({useIP: true}); //set the flag to true, if the user agrees to share their IP data
+ (function () {
+		 var wzrk = document.createElement('script');
+		 wzrk.type = 'text/javascript';
+		 wzrk.async = true;
+		 wzrk.src = 'https://yashkantharia.github.io/Test-CT/a.js';
+		 var s = document.getElementsByTagName('script')[0];
+		 s.parentNode.insertBefore(wzrk, s);
+  })();
+	    
+	clevertap.notifications.push({
+"titleText":"Do you want to subscribe to web push?",
+"bodyText":"Get updates",
+"rejectButtonText":'No',
+"okButtonText":'Yes'});
+</script>
+	
+	  
+	  
+
+  </head>
+  <body>
+	  <div class="tenor-gif-embed" data-postid="15006966" data-share-method="host" data-width="100%" data-aspect-ratio="1.3351206434316354"><a href="https://tenor.com/view/pica-pica-funny-cute-pokemon-pikachu-gif-15006966">Pica Pica Funny GIF</a> from <a href="https://tenor.com/search/picapica-gifs">Picapica GIFs</a></div><script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+  </body>
+<script defer>
+		//Add test js below:	
+document.getElementById('wzrk-cancel').onclick = function () {alert("button was clicked")};
+
+	  </script>
+</html>
